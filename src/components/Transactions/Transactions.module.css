@@ -1,0 +1,38 @@
+
+.transaction_history {
+width: 100%;
+margin: 0 auto;
+background-color: white;
+}
+
+.head {
+    /* display: inline-block; */
+    
+}
+
+.head_row {
+background-color: aqua;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+
+}
+
+.table_raw {
+
+}
+
+.table_raw:nth-child(even) {
+    background-color:rgb(33, 33, 33, 0.2);
+}
+
+.table_stroke {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: rgb(33, 33, 33, 0.5);
+}
+
+.table_stroke:not(:last-child) {
+    border-right: 1px solid rgb(33, 33, 33, 0.2);
+}
